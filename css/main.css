@@ -1,0 +1,94 @@
+
+
+body {
+    margin: 0% 7% 0% 7%;
+}
+
+/*Tiles and Text*/
+
+h1 {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 50pt;
+    text-align: center;
+}
+
+h3 {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 20pt;
+    text-align: center;
+}
+
+/*Images*/
+
+.bomb {
+    width: 100px;
+    height: 100px;
+    user-select: none;
+    cursor: pointer;
+}
+
+/*Timer*/
+
+.timer {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 30pt;
+    width: 40px;
+    height: 50px;
+    text-align: center;
+    background-color: #ababab;
+    border: 2px solid black;
+}
+
+/*Buttons*/
+
+.startbutton {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 12pt;
+    background-color: #ababab;
+    color: white;
+    width: 8%;
+    height: 40px;
+    border: 2px solid black;
+    cursor: pointer;
+}
+
+.startbutton:active {
+    background-color: black;
+    box-shadow: 0 2px #414141;
+    transform: translateY(3px);
+}
+
+.activestart {
+    background-color: black;
+    color: gold;
+}
+
+.startlayout {
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding-bottom: 10px;
+}
+
+/*Grid*/
+
+.playspace {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    width: 30%;
+    border: 5px solid black;
+    background-color: rgb(191, 191, 191);
+    justify-content: space-evenly;
+    justify-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+}
+
+/*Misc*/
+
+.gamedisable {
+    pointer-events: none;
+}
